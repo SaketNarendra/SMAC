@@ -93,7 +93,7 @@ scenario = Scenario({"run_obj": "quality",  # we optimize quality (alternative r
                      "runcount-limit": 10,  # max. number of function evaluations; for this example set to a low number
                      "cs": cs,  # configuration space
                      "deterministic": "true",
-                     "memory_limit": 3072,  # adapt this to reasonable value for your hardware
+                     "memory_limit": 1024,  # adapt this to reasonable value for your hardware
                      })
 
 # To optimize, we pass the function to the SMAC-object
